@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #fff;
+}
+
+#upload_container{
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#upload_container form{
+    display: flex;
+    flex-direction: column;
+}
+
+#upload_container form input{
+    padding: 8px;
+    outline: none;
+    border: 1px solid lightblue;
+    margin-bottom: 8px;
+}
+
+#upload_container form button{
+    padding: 8px;
+    outline: none;
+    background-color: lightblue;
+    border: none;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+#upload_container form input[type="submit"]{
+    background-color: lightgray;
+    border: none;
+}
+
+#upload_container form input[type="submit"]:hover{
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid lightblue;
+
+}

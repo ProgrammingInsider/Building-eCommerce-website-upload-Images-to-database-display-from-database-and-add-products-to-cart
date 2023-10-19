@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: black;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 20px;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+}
+
+header a{
+    position: relative;
+    font-size: 2rem;
+}
+
+header a:hover{
+    color: red;
+}
+
+header #main_tabs a{
+    margin-left: 1em;
+}
+
+header a span{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -30%;
+    right: -30%;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    padding: .2em;
+    text-align: center;
+}

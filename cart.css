@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: black;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    max-width: 1500px;
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+main .card{
+    height:  150px;
+    border: 1px solid lightgray;
+    margin: 20px;
+    display: flex;
+}
+
+main .card .images{
+    width: 20%;
+}
+
+main .card .images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main .card .caption{
+  line-height: 3em;
+  margin-left: 30px;
+  position: relative;
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main .card .caption p{
+    font-size: 1.5rem;
+}
+
+del{
+    text-decoration: line-through;
+}
+
+main .card .caption .rate{
+    display: flex;
+}
+
+main .card .caption .rate i{
+    color: gold;
+    margin-left:  2px;
+}
+
+main .card .caption .price{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+main .card .caption button{
+    background-color: red;
+    color: white;
+    padding: 1em;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 2em;
+    font-weight: bold;
+    width: 30%;
+}
